@@ -1,0 +1,194 @@
+
+/* Navbar */
+.header{
+    .info-head{
+      .icon{
+      width: 18px;
+      height: 18px;      
+      }
+    }
+    .iconbar{
+      .icon{
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+  
+  header span{
+   font-size: 0.875rem;
+  }
+  .hamburger{
+   width: 20px;
+   span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 2px;
+    background-color: #F3EDD7;
+   }
+  }
+  
+  .logo{
+   width: 106px;
+   height: auto;
+  }
+  
+  .arrow_down{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+  }
+  
+  .form-search{
+    flex: 1 1 auto; /* Permette al contenuto di adattarsi */
+    min-width: 200px; /* Imposta una larghezza minima */
+  }
+
+  
+  @media (min-width: 768px){
+    .icon-left{
+      width: 160px;
+    }
+    .logo{
+      width: 160px;
+    }
+  }
+  
+  
+  @media (min-width: 968px){
+    .header{
+      .iconbar{
+        .icon{
+          position: relative;
+          bottom: 2px;
+          width: 24px;
+          height: 24px;
+        }
+      }
+      .personal{
+        .bollino{
+          height: 15px;
+          width: 15px;
+          background-color: var(--color-orange);
+          border-radius: 50%;
+          position: absolute;
+          right: -7px;
+          top: -5px;
+          z-index: 10;
+          >div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  
+  .header{
+    form{
+      padding: 0 16px;
+       div{
+        height: 40px;
+        border-radius: 18px;
+        padding:0 10px;
+        input{
+         font-size: 1rem;
+         border: none;
+         background-color: transparent;
+         font-weight: 575;
+         width: 100%;
+         height: 30px;
+        }
+     
+     
+        button{
+         border:none;
+         border-radius:18px ;
+         width: 50px;
+        }
+       }
+     }
+     
+     @media (min-width: 768px){
+      form{
+       width: 440px;
+      }
+     }
+  }
+  
+  
+  nav{
+   font-size: 0.625rem;
+  }
+  
+  
+  
+  
+  
+
+  
+/* Categorie */
+.head-categorie{
+
+  .categorie{
+    width: 220px;
+    div{
+      width: 100%;
+      height: 45px;
+      border: 1px solid var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 24px;
+      gap: 8px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+  
+  .offerte{
+    height: 62px;
+    display: flex;
+    width: 700px;
+    align-items: center;
+    span{
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .special{
+      background-color: var(--color-orange);
+      color:white;
+      border-radius: 32px;
+
+    }
+  }
+
+  .btn-categorie{
+    display: inline-flex; 
+    align-items: center;  
+    gap: 8px; 
+    white-space: nowrap;
+    padding: 4px 8px;
+  }
+}
+  
+
+@media (min-width:968px){
+  .head-categorie{
+    .offerte{
+      span{
+        font-size: 1rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+  

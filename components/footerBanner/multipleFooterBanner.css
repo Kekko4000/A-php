@@ -1,0 +1,81 @@
+.banner-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.banner-card .description-card {
+    padding: 0 0 20px 0;
+
+    .title-description {
+        font-size: 1rem;
+    }
+
+    .d-description {
+        font-size: 0.9rem;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        /* number of lines to show */
+        line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+}
+
+.vector {
+    display: none;
+}
+
+.description-card .info {
+    background-color: rgb(255, 255, 255, 0.8);
+    color: var(--color-primary);
+    padding: 10px 15px;
+    border-radius: 200px;
+    transition: 0.1s ease-in;
+}
+
+.banner-card .description-card .info:hover {
+    background-color: rgb(255, 255, 255, 1);
+}
+
+
+
+
+@media (min-width:768px) {
+    .banner-card {
+        display: flex;
+        flex-direction: row;
+
+        >div {
+            flex: 50%;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 24px 0 0 24px;
+        }
+
+        .description-card {
+            .title-description {
+                font-size: 1.875rem;
+            }
+
+            .d-description {
+                font-size: 1.125rem;
+                -webkit-line-clamp: 6;
+                /* number of lines to show */
+                line-clamp: 6;
+            }
+        }
+        
+
+    }
+
+    
+}
+

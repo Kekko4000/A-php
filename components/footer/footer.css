@@ -1,0 +1,175 @@
+
+/* FOOTER */
+
+#footer{
+
+    .anteprima{
+      width: min(100%, 264px);
+    }
+  
+    .chevron{
+      width: 12px;
+      height: 12px;
+    }
+  
+  
+    .accordion-icon {
+      font-size: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .accordion-button:not(.collapsed) .accordion-icon {
+      transform: rotate(180deg); /* Ruota la freccia quando espanso */
+    }
+  
+    .custom-accordion-button {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* Allinea il contenuto a sinistra */
+      gap: 10px; /* Aggiunge uno spazio tra la parola e l'icona */
+    }
+    
+    .accordion-icon {
+      font-size: 1rem;
+      transition: transform 0.3s ease;
+    }
+    
+    .accordion-button:not(.collapsed) .accordion-icon {
+      transform: rotate(180deg); /* Ruota la freccia quando espanso */
+    }
+  
+    input{
+      background-color: transparent;
+      border: none;
+    }
+    
+    .label-checkbox{
+      span{
+        white-space: nowrap;         /* Impedisce il ritorno a capo */
+        overflow: hidden;            /* Nasconde il testo che eccede il contenitore */
+        text-overflow: ellipsis; 
+      }
+      .checkbox-hidden {
+        display: none;
+      }
+  
+      .checkbox-label {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-color: var(--color-yellow-white);
+        border: 1px solid var(--color-primary);
+        position: relative;
+        cursor: pointer;
+      }
+  
+      .checkbox-hidden:checked + .checkbox-label {
+        background-color: var(--color-primary);
+      }
+
+      .checkbox-hidden + .checkbox-label::after{
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 5px;
+        width: 6px;
+        height: 11px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+  
+  
+  
+      .checkbox-label:hover {
+        background-color: #ccc;
+      }
+  
+    }
+  
+    .submit{
+      border: none;
+      background-color: var(--color-primary);
+      color: white;
+      padding: 10px 20px;
+    }
+  
+    .google{
+      height: 40px;
+      background-color: rgb(209, 209, 209);
+      border-radius: 0;
+    }
+  
+    .email{
+      border: 1px solid var(--color-primary);
+      height: 56.6px;
+    }
+    .emailEmpty{
+      width: 18px;
+    }
+  
+    .checkbox{
+      width: 18px;
+      height: 18px;
+    }
+  
+    .servizioClienti{
+      >div{
+        display: flex;
+        align-items: center;
+      }
+      .icon{
+        width: 18px;
+      }
+    }
+  
+    .layout-pagamenti{
+      >div{
+        flex: 1 1 50%;
+      }
+    }
+    .pagamenti{
+      .icon{
+        width: 50px;
+        height: 35.6px;
+      }
+     
+  
+      
+    }
+  
+    .footer{
+      border-top: 1px solid var(--color-primary);
+      
+    }
+  
+    .footer > div { 
+      flex: 0 0 47%; /* Ogni figlio occupa esattamente il 40% */
+      overflow: hidden; /* Nasconde il contenuto che va oltre il limite */
+      white-space: nowrap; /* Evita che il testo vada a capo */
+    }
+  
+    .footer > div:nth-child(1) {
+      span{
+        float:left;
+      }
+    }
+    .footer > div:nth-child(2) {
+      span{
+        float:right;
+      }
+    }
+  }
+  
+  @media (min-width:1200px){
+
+    .footer-info{
+      line-height: 1.3rem;
+    }
+    .footer-contain > :nth-child(1) {
+      width: 40%;
+    }
+    
+    .footer-contain > :nth-child(2) {
+      width: 60%;
+    }
+  }

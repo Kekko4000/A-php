@@ -1,0 +1,16 @@
+.banner .description-card {
+    width: 100%;
+}
+
+.banner-card .description-card .info{
+    display: none;
+    background-color: rgb(255, 255, 255, 0.8);
+    color: var(--color-primary);
+    padding: 10px 15px;
+    border-radius: 200px;
+    transition: 0.1s ease-in;
+  }
+  
+  .banner-card .description-card .info:hover{
+    background-color: rgb(255, 255, 255, 1);
+  }
