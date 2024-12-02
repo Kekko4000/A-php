@@ -1,0 +1,376 @@
+@import url(./costants.css);
+@import url("./text/text.css");
+@import url("./text/text-sm.css") screen and (min-width: 552px);
+@import url("./text/text-md.css") screen and (min-width: 768px);
+@import url("./text/text-lg.css") screen and (min-width: 992px);
+@import url("./text/text-xl.css") screen and (min-width: 1200px);
+@import url("./text/text-xxl.css") screen and (min-width: 1400px);
+
+/* text-10 per modificare il testo */
+
+
+@font-face {
+ font-family: 'Plein';
+ src: url(../font/TTF/Plein-Variable.ttf);
+font-style: normal;
+font-weight: 300;
+font-display: swap;
+
+}
+
+html, body {
+ margin:0;
+ padding: 0;
+ box-sizing: border-box; 
+ font-family: 'Plein','bold' sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+.primary{
+ color: var(--color-primary);
+}
+
+.eggshell{
+ color: var(--color-eggshell);
+}
+
+.orange{
+ color:var(--color-orange);
+}
+
+.red{
+ color:var(--color-red)
+}
+
+.bg-primary{
+ background-color: var(--color-primary) !important;
+}
+
+.bg-eggshell{ 
+ background-color: var(--color-eggshell);
+}
+
+.bg-evidence{
+    background-color: var(--color-evidence);
+}
+
+.bg-format{
+ background-color: var(--color-format);
+}
+
+.bg-orange{
+ background-color: var(--color-orange);
+}
+
+.bg-yellow-white{
+ background-color: var(--color-yellow-white);
+}
+
+.bg-light-green-secondary{
+    background-color: var(--color-light-green-secondary);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* Font-Style */
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.plein{
+    font-family: 'Plein', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* Bottoni */
+
+.btn-primary{
+    color:white;
+    background-color: var(--color-primary);
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: bold;
+}
+
+.btn-secondary{
+    color:white;
+    display: inline;
+    background-color: var(--color-orange);
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: bold;
+}
+
+
+/* Border */
+
+
+.border-radius-4{
+    border-radius: 5px;
+}
+
+.border-radius-5{
+    border-radius: 5px;
+}
+
+.border-radius-8{
+    border-radius: 8px;
+}
+
+
+.border-radius-12{
+    border-radius: 12px;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+
+.border-radius-20{
+    border-radius: 20px;
+}
+
+
+.border-radius-24{
+    border-radius: 24px;
+}
+
+.border-up-radius-24{
+    border-radius: 24px 24px 0 0;
+}
+
+.border-down-radius-24{
+    border-radius: 0 0 24px 24px;
+}
+
+.border-radius-100{
+    border-radius: 100px;
+}
+
+.border-up-radius-100{
+    border-radius: 100px 100px 0 0;
+}
+
+.border-down-radius-100{
+    border-radius: 0 0 100px 100px;
+}
+
+
+
+
+
+
+/* Icone */
+.icon{
+    width: 24px; 
+    height: 24px; 
+    background-size: contain;  
+    background-repeat: no-repeat;  
+    background-position: center; 
+    display: inline-block;
+}
+
+.icon-left-chevron{
+    background-image: url("../img/icon/green/Chevron-1.svg");
+}
+
+.icon-right-chevron{
+    background-image: url("../img/icon/green/Chevron.svg");
+}
+
+.icon-left-chevron-disabled{
+    background-image: url("../img/icon/green/Chevron-1.svg");
+    opacity: 0.2;
+}
+
+.icon-right-chevron-disabled{
+    background-image: url("../img/icon/green/Chevron.svg");
+    opacity: 0.2;
+}
+
+
+
+.icon-discover{
+    background-image: url("../img/icon/pagamenti/Discover.svg");
+}
+.icon-maestro{
+    background-image: url("../img/icon/pagamenti/maestro.svg");
+}
+.icon-masterCard{
+    background-image: url("../img/icon/pagamenti/masterCard.svg");
+}
+.icon-paypal{
+    background-image: url("../img/icon/pagamenti/paypal.svg");
+}
+.icon-visa{
+    background-image: url("../img/icon/pagamenti/visa.svg");
+}
+.icon-sda{
+    background-image: url("../img/icon/pagamenti/Sda.svg");
+}
+
+
+
+
+
+
+.icon-fiori-orange{
+    background-image: url("../img/icon/menu/Fiori.svg");
+}
+
+.icon-animaliCortile-orange{
+    background-image: url("../img/icon/menu/Animali_cortile.svg");
+}
+
+.icon-animali-orange{
+    background-image: url("../img/icon/menu/Animali.svg");
+}
+
+.icon-frutta-orange{
+    background-image: url("../img/icon/menu/Frutta.svg");
+}
+
+.icon-piante-orange{
+    background-image: url("../img/icon/menu/Piante.svg");
+}
+
+.icon-semi-orange{
+    background-image: url("../img/icon/menu/Mangimi_Semi.svg");
+}
+
+.icon-left-arrow-orange{
+    background-image: url("../img/icon/menu/LeftArrow.svg");
+}
+
+.icon-right-arrow-orange{
+    background-image: url("../img/icon/menu/RightArrow.svg");
+}
+
+
+
+
+
+.icon-shopCart-white{
+    background-image: url("../img/icon/white/ShoppingCart.svg");
+    opacity: 1;
+}
+
+.icon-vector-white{
+    background-image: url("../img/icon/white/Vector.svg");
+}
+
+.icon-phone-white{
+    background-image: url("../img/icon/white/PhoneReceiverSilhouette.svg");
+}
+
+
+.icon-email-white{
+    background-image: url("../img/icon/white/Email.svg");
+}
+
+.icon-left-chevron-white{
+    background-image: url("../img/icon/white/LeftChevron.svg");
+}
+
+.icon-right-chevron-white{
+    background-image: url("../img/icon/white/RightChevron.svg");
+}
+
+
+.icon-down-chevron-white{
+    background-image: url("../img/icon/white/DownChevron.svg");
+}
+
+.i-h-white:hover{
+    filter: brightness(1.3); /* Aumenta la luminosità del 50% */
+}
+
+
+.icon-FastDelivery-green{
+    background-image: url("../img/icon/green/Fastdelivery.svg");
+}
+
+.icon-RightChevron-green{
+    background-image: url("../img/icon/green/DownChevron.svg");
+}
+
+.icon-email-green{
+    background-image: url("../img/icon/green/Email.svg");
+}
+
+.icon-emailEmpty-green{
+    background-image: url("../img/icon/green/EmailEmpty.svg");
+}
+
+.icon-whatsapp-green{
+    background-image: url("../img/icon/green/Whatsapp.svg");
+}
+
+.icon-Phone-green{
+    background-image: url("../img/icon/green/PhoneReceiverSilhouette.svg");
+}
+
+.icon-Headset-green{
+    background-image: url("../img/icon/green/CustomerServiceHeadset.svg");
+}
+
+.icon-right-chevron-empty-green{
+    background-image: url("../img/icon/green/UPchevron.svg");
+ }
+
+.icon-LeftArrowChevron-green{
+background-image: url("../img/icon/green/LeftArrowChevron.svg");
+}
+
+.icon-RightArrowChevron-green{
+background-image: url("../img/icon/green/RightArrowChevron.svg");
+}
+
+.icon-RightArrow-green{
+    background-image: url("../img/icon/green/RightArrow.svg");
+}
+
+.icon-info-green{
+    background-image: url("../img/icon/green/Info.svg");
+}
+
+
+
+
+
+
+.icon-facebook-black{
+    background-image: url("../img/icon/pagamenti/FacebookBlack.svg");
+}
+
+.icon-instagram-black{
+    background-image: url("../img/icon/pagamenti/InstagramBlack.svg");
+}
+
+
+.icon-trash-red{
+    background-image: url("../img/icon/red/Trash.svg");
+}
+
+
+
+.icon-30{
+    width: 30px !important;
+    height: 30px !important;
+}
+

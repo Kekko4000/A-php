@@ -1,0 +1,360 @@
+@import url('../costants.css');
+
+.breadcrumb-layout {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.breadcrumb-layout::-webkit-scrollbar {
+    display: none;
+}
+
+
+.details-item .head-image {
+    border: 1px solid var(--color-pink-secondary);
+    img {
+        width: 98%;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+
+@media (min-width:768px){
+    .details-item .head-image {
+        max-width: 655px;
+        max-height: 675px;
+        img {
+            width: 100%; 
+            height: 100%;
+            margin-left: auto;
+        }
+    }
+}
+
+
+.details-item .footer-image {
+    padding-top: 10px;
+
+    .swiper-slide {
+        border: 1px solid var(--color-pink-secondary);
+        border-radius: 5px;
+        width: 111px;
+        height: 111px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+
+    }
+}
+
+
+@media (min-width:768px){
+    .details-item .footer-image {
+    
+        .swiper-slide {
+            width: 285px;
+            height: 285px;
+            padding: 10px;
+        }
+    }
+    
+}
+
+.details-item .footer-image .swiper-container {
+    position: relative;
+    padding: 0 30px;
+}
+
+.details-item .footer-image .swiper {
+    position: static;
+}
+
+.details-item .footer-image .swiper-button-next::after,
+.details-item .footer-image .swiper-button-prev::after {
+    content: "";
+}
+
+.details-item .footer-image .swiper-button-prev,
+.details-item .footer-image .swiper-button-next {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.details-item .footer-image .swiper-button-prev {
+    background-image: url("../../img/icon/green/LeftArrowChevron.svg");
+}
+
+
+.details-item .footer-image .swiper-button-next {
+    background-image: url("../../img/icon/green/RightArrowChevron.svg");
+}
+
+.details-item .footer-image .swiper-button-prev {
+    left: -3px;
+}
+
+.details-item .footer-image .swiper-button-next {
+    right: -3px;
+}
+
+.details-item .description-item .valutazione {
+    border-bottom: 1px solid var(--color-pink-secondary);
+}
+
+.details-item .description-item .sconto {
+    padding: 12px 6px;
+}
+
+.stato-consegna {
+    div {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: var(--color-light-green);
+    }
+}
+
+
+.radio-custom {
+    display: none;
+}
+
+/* Stile per il contenitore del radio */
+.form-check {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0;
+
+    .sconto {
+        padding: 3px 6px !important;
+    }
+}
+
+.form-check label {
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.radio-custom:checked+label {
+    font-weight: bold;
+}
+
+.form-check label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.radio-custom:checked+label::before {
+    background-color: var(--color-light-green);
+    border-color: var(--color-primary);
+}
+
+.details-item form {
+    padding-bottom: 2rem;
+    border-bottom:1px solid var(--color-pink-secondary) ;
+}
+
+.details-item form .numero-prodotti>div {
+    border: 2px solid var(--color-eggshell);
+    border-radius: 5px;
+    padding: 0 4px;
+}
+
+.details-item form .numero-prodotti input {
+    border: none;
+    width: 110px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.details-item form .numero-prodotti input:disabled {
+    background-color: white;
+}
+
+.details-item form .numero-prodotti .btn-meno::after {
+    content: "-";
+}
+
+.details-item form .numero-prodotti .btn-piu::after {
+    content: "+";
+}
+
+.details-item form .numero-prodotti .btn-meno::after,
+.details-item form .numero-prodotti .btn-piu::after {
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: relative;
+    bottom: 4px;
+}
+
+.details-item form .numero-prodotti .btn-meno:hover,
+.details-item form .numero-prodotti .btn-piu:hover,
+.details-item form .numero-prodotti .btn-meno:active,
+.details-item form .numero-prodotti .btn-piu:active {
+    transform: scale(1.2);
+}
+
+@media (min-width:576px){
+    .details-item form .numero-prodotti>div{
+        height: 40px;
+    }
+
+    .details-item form .numero-prodotti>a>div{
+        height: 40px;
+    }
+}
+
+
+
+.description-product .nav-tabs{
+    border: none;
+}
+.description-product button.nav-link.active{
+    background-color: var(--color-neutral-grey);
+
+}
+.description-product button.nav-link{
+    color: black;
+}
+
+.description-product .tab-content{
+    border: 1px solid var(--color-primary);
+}
+
+
+.description-product .btn-secondary{
+    border-radius: 0;
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.description-product .dropdown-menu .active{
+    background-color: var(--color-primary);
+}
+
+.description-product .btn-secondary::after{
+    content: url('../../img/icon/white/DownChevron.svg');
+    padding-left: 5px;
+}
+
+
+@media (min-width:992px){
+    .description-product .tab-content{
+        box-shadow: 3px 10px 10px rgba(126, 126, 126, 0.3);
+        background-color: white;
+        border-radius: 24px;
+        border: none;
+    }
+}
+
+
+
+/* other-products */
+
+.other-products .table-products{
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.other-products .list-head{
+    border-bottom: 1px solid var(--color-primary);
+}
+.other-products .list-products img{
+    width: 100%;
+    max-width: 145px;
+    max-height: 145px;
+    object-fit: contain;
+    object-position:left;
+}
+
+
+
+/* InEvidenzia */
+
+
+.correlati .swiper-container{
+    position: relative;
+    padding: 0 35px;
+    height: 430px;
+}
+
+.correlati .swiper{
+    position: static;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after
+{
+    content: "";
+}
+
+.swiper-button-next, .swiper-button-prev{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: translateY(60%);
+    height: 20px;
+    width: 20px;
+}
+
+.details-item .swiper-button-prev {
+    background-image: url("../../img/icon/green/LeftArrowChevron.svg");
+    left: -20px;
+  }
+  .details-item .swiper-button-next {
+    background-image: url("../../img/icon/green/RightArrowChevron.svg");
+    right: -20px;
+  }
+
+
+  /* banner-footer */
+
+  .banner-footer{
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("../../img/COVER.png");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  .banner-footer .swiper-button-prev {
+    background-image: url("../../img/icon/white/LeftChevron.svg");
+    left: 5;
+  }
+
+  .banner-footer .swiper-button-next{
+    background-image: url("../../img/icon/white/RightChevron.svg");
+    right: 5;
+  }
+
+
+  

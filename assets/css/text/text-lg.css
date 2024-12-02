@@ -1,0 +1,104 @@
+/* Large (lg) */
+.lg-line-height-26 {
+    line-height: 26px;
+}
+
+.lg-extra-light {
+    font-weight: 100;
+}
+
+.lg-ultra-light {
+    font-weight: 200;
+}
+
+.lg-light {
+    font-weight: 300;
+}
+
+.lg-normal {
+    font-weight: 400;
+}
+
+.lg-medium {
+    font-weight: 500;
+}
+
+.lg-semi-medium {
+    font-weight: 600;
+}
+
+.lg-bold {
+    font-weight: 700;
+}
+
+.lg-extra-bold {
+    font-weight: 800;
+}
+
+.lg-heavy {
+    font-weight: 900;
+}
+
+.lg-text-10 {
+    font-size: 0.625rem; /* 10px */
+}
+
+.lg-text-12 {
+    font-size: 0.75rem; /* 12px */
+}
+
+.lg-text-14 {
+    font-size: 0.875rem; /* 14px */
+}
+
+.lg-text-14-4 {
+    font-size: 0.9rem; /* 14.4px */
+}
+
+.lg-text-16 {
+    font-size: 1rem; /* 16px */
+}
+
+.lg-text-18 {
+    font-size: 1.125rem; /* 18px */
+}
+
+.lg-text-20 {
+    font-size: 1.25rem; /* 20px */
+}
+
+.lg-text-21 {
+    font-size: 1.313rem; /* 21px */
+}
+
+.lg-text-24 {
+    font-size: 1.5rem; /* 24px */
+}
+
+.lg-text-28 {
+    font-size: 1.75rem; /* 28px */
+}
+
+.lg-text-32 {
+    font-size: 2rem; /* 32px */
+}
+
+.lg-text-40 {
+    font-size: 2.5rem; /* 40px */
+}
+
+.lg-text-42 {
+    font-size: 2.625rem; /* 40px */
+}
+
+.lg-text-48 {
+    font-size: 3rem; /* 48px */
+}
+
+.lg-text-52 {
+    font-size: 3.25rem; /* 52px */
+}
+
+.lg-text-64 {
+    font-size: 4rem; /* 64px */
+}

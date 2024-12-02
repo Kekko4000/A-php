@@ -1,0 +1,104 @@
+/* Medium (md) */
+.md-line-height-26 {
+    line-height: 26px;
+}
+
+.md-extra-light {
+    font-weight: 100;
+}
+
+.md-ultra-light {
+    font-weight: 200;
+}
+
+.md-light {
+    font-weight: 300;
+}
+
+.md-normal {
+    font-weight: 400;
+}
+
+.md-medium {
+    font-weight: 500;
+}
+
+.md-semi-medium {
+    font-weight: 600;
+}
+
+.md-bold {
+    font-weight: 700;
+}
+
+.md-extra-bold {
+    font-weight: 800;
+}
+
+.md-heavy {
+    font-weight: 900;
+}
+
+.md-text-10 {
+    font-size: 0.625rem; /* 10px */
+}
+
+.md-text-12 {
+    font-size: 0.75rem; /* 12px */
+}
+
+.md-text-14 {
+    font-size: 0.875rem; /* 14px */
+}
+
+.md-text-14-4 {
+    font-size: 0.9rem; /* 14.4px */
+}
+
+.md-text-16 {
+    font-size: 1rem; /* 16px */
+}
+
+.md-text-18 {
+    font-size: 1.125rem; /* 18px */
+}
+
+.md-text-20 {
+    font-size: 1.25rem; /* 20px */
+}
+
+.md-text-21 {
+    font-size: 1.313rem; /* 21px */
+}
+
+.md-text-24 {
+    font-size: 1.5rem; /* 24px */
+}
+
+.md-text-28 {
+    font-size: 1.75rem; /* 28px */
+}
+
+.md-text-32 {
+    font-size: 2rem; /* 32px */
+}
+
+.md-text-40 {
+    font-size: 2.5rem; /* 40px */
+}
+
+.md-text-42 {
+    font-size: 2.625; /* 40px */
+}
+
+.md-text-48 {
+    font-size: 3rem; /* 48px */
+}
+
+.md-text-52 {
+    font-size: 3.25rem; /* 52px */
+}
+
+.md-text-64 {
+    font-size: 4rem; /* 64px */
+}

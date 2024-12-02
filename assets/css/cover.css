@@ -1,0 +1,39 @@
+.cover{
+ background-image: url("../img/COVER.png");
+ background-size:cover;
+ padding: 86px 40px;
+}
+
+
+.description{
+ width: 540px;
+ margin-top: 40px;
+}
+
+.credits{
+ margin-top: 400px;
+}
+
+.description  h1{
+font-size: 4.0rem;
+font-weight: 750;
+line-height: 0.9;
+margin-bottom: 0;
+}
+
+.description  span{
+ font-size: 1.5rem;
+ line-height: 1.8;
+}
+
+.description  p{
+ font-size: 1.3rem;
+ line-height: 1.8;
+ font-weight: bold;
+}
+
+
+.credits{
+ font-size: 1rem;
+ font-weight: 700;
+}

@@ -1,0 +1,105 @@
+
+/* Extra Large (xl) */
+.xl-line-height-26 {
+    line-height: 26px;
+}
+
+.xl-extra-light {
+    font-weight: 100;
+}
+
+.xl-ultra-light {
+    font-weight: 200;
+}
+
+.xl-light {
+    font-weight: 300;
+}
+
+.xl-normal {
+    font-weight: 400;
+}
+
+.xl-medium {
+    font-weight: 500;
+}
+
+.xl-semi-medium {
+    font-weight: 600;
+}
+
+.xl-bold {
+    font-weight: 700;
+}
+
+.xl-extra-bold {
+    font-weight: 800;
+}
+
+.xl-heavy {
+    font-weight: 900;
+}
+
+.xl-text-10 {
+    font-size: 0.625rem; /* 10px */
+}
+
+.xl-text-12 {
+    font-size: 0.75rem; /* 12px */
+}
+
+.xl-text-14 {
+    font-size: 0.875rem; /* 14px */
+}
+
+.xl-text-14-4 {
+    font-size: 0.9rem; /* 14.4px */
+}
+
+.xl-text-16 {
+    font-size: 1rem; /* 16px */
+}
+
+.xl-text-18 {
+    font-size: 1.125rem; /* 18px */
+}
+
+.xl-text-20 {
+    font-size: 1.25rem; /* 20px */
+}
+
+.xl-text-21 {
+    font-size: 1.313rem; /* 21px */
+}
+
+.xl-text-24 {
+    font-size: 1.5rem; /* 24px */
+}
+
+.xl-text-28 {
+    font-size: 1.75rem; /* 28px */
+}
+
+.xl-text-32 {
+    font-size: 2rem; /* 32px */
+}
+
+.xl-text-40 {
+    font-size: 2.5rem; /* 40px */
+}
+
+.xl-text-42 {
+    font-size: 2.625rem; /* 42px */
+}
+
+.xl-text-48 {
+    font-size: 3rem; /* 48px */
+}
+
+.xl-text-52 {
+    font-size: 3.25rem; /* 52px */
+}
+
+.xl-text-64 {
+    font-size: 4rem; /* 64px */
+}

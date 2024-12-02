@@ -1,0 +1,104 @@
+/* Extra Extra Large (xxl) */
+.xxl-line-height-26 {
+    line-height: 26px;
+}
+
+.xxl-extra-light {
+    font-weight: 100;
+}
+
+.xxl-ultra-light {
+    font-weight: 200;
+}
+
+.xxl-light {
+    font-weight: 300;
+}
+
+.xxl-normal {
+    font-weight: 400;
+}
+
+.xxl-medium {
+    font-weight: 500;
+}
+
+.xxl-semi-medium {
+    font-weight: 600;
+}
+
+.xxl-bold {
+    font-weight: 700;
+}
+
+.xxl-extra-bold {
+    font-weight: 800;
+}
+
+.xxl-heavy {
+    font-weight: 900;
+}
+
+.xxl-text-10 {
+    font-size: 0.625rem; /* 10px */
+}
+
+.xxl-text-12 {
+    font-size: 0.75rem; /* 12px */
+}
+
+.xxl-text-14 {
+    font-size: 0.875rem; /* 14px */
+}
+
+.xxl-text-14-4 {
+    font-size: 0.9rem; /* 14.4px */
+}
+
+.xxl-text-16 {
+    font-size: 1rem; /* 16px */
+}
+
+.xxl-text-18 {
+    font-size: 1.125rem; /* 18px */
+}
+
+.xxl-text-20 {
+    font-size: 1.25rem; /* 20px */
+}
+
+.xxl-text-21 {
+    font-size: 1.313rem; /* 21px */
+}
+
+.xxl-text-24 {
+    font-size: 1.5rem; /* 24px */
+}
+
+.xxl-text-28 {
+    font-size: 1.75rem; /* 28px */
+}
+
+.xxl-text-32 {
+    font-size: 2rem; /* 32px */
+}
+
+.xxl-text-40 {
+    font-size: 2.5rem; /* 40px */
+}
+
+.xxl-text-42 {
+    font-size: 2.625rem; /* 42px */
+}
+
+.xxl-text-48 {
+    font-size: 3rem; /* 48px */
+}
+
+.xxl-text-52 {
+    font-size: 3.25rem; /* 52px */
+}
+
+.xxl-text-64 {
+    font-size: 4rem; /* 64px */
+}
