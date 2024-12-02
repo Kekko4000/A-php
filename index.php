@@ -167,7 +167,8 @@ $prodotti =
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <!-- <base href="http://127.0.0.1/agriden/"> -->
-  <base href="http://<?=$_SERVER['SERVER_NAME']?>">
+  <base href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/">
+
   <!-- <base href="https://test1234-1wt3.onrender.com/"> -->
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -227,7 +228,7 @@ $prodotti =
     </div>
   </dialog>
 
-  <!-- Modal -->
+
 
   <?php include('./components/navbar/navbar.php'); ?>
 
